@@ -1,0 +1,26 @@
+1.下载git
+2.在git 上创建一个仓库
+3.运行 git-bash.exe
+4.cd 进入 git安装目录
+5.输入 git clone "github仓库地址"（https://github.com/714273725/Experinence.git）
+  把仓库克隆到本地（Experinence文件夹）
+6.把项目放进Experinence文件夹，cd 进入Experinence文件夹，运行 git add .把项目加到版本控制（以下
+  均在Experinence文件夹中操作）
+7.git commit -m "First commit" 推到本地仓库（""里的是本次推送的说明）
+8.git push origin master 把项目推到github仓库，这时需要输入用户帐号和密码
+9.提交成功
+
+
+10.以后增加或修改了文件（重复6到8）
+
+
+忽略：
+1.Git Bash 进入命令行，进入项目所在目录。
+
+2.输入 touch .gitignore 在文件夹就生成了一个“.gitignore”文件。
+
+3.然后在”.gitignore” 文件里输入你要忽略的文件夹及其文件就可以了。
+
+
+协作开发：
+1.fork别人的项目，然后在自己的仓库会有一个一样的项目
