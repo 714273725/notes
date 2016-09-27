@@ -1,0 +1,11 @@
+1.finished with non-zero exit value 3
+java堆内存不足
+在build.gradle中添加如下语句
+dexOptions {
+    incremental true
+    javaMaxHeapSize "4g"
+}
+
+
+2.finished with non-zero exit value 2
+依赖重复
