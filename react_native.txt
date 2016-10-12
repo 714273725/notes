@@ -1,0 +1,37 @@
+一、配置环境
+Chocolatey
+
+Chocolatey是一个Windows上的包管理器，类似于linux上的yum和 apt-get。 你可以在其官方网站上查看具体的使用说明。一般的安装步骤应该是下面这样：
+
+@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
+
+Python
+choco install python2
+
+Node
+
+打开命令提示符窗口，使用Chocolatey来安装NodeJS.
+
+choco install nodejs.install
+
+
+
+React Native命令行工具（react-native-cli）
+
+React Native的命令行工具用于执行创建、初始化、更新项目、运行打包服务（packager）等任务。
+
+npm install -g react-native-cli
+
+
+
+二、创建项目
+react-native init AwesomeProject
+cd AwesomeProject
+react-native run-android
+
+
+
+
+
+
+
