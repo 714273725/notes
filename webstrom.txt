@@ -1,0 +1,6 @@
+1.
+are not supported by current JavaScript version
+
+By changing 'JavaScript language version'(Settings/Languages & Frameworks/JavaScript) accordingly, to either 'ECMASCript 6' or 'JSX Harmony'. BTW, WebStorm can do it for you: hit Alt+Enter on the highlighted statement, choose 'Change JavaScript version to ECMASCript 6' from the popup
+
+2.项目名称不能用ReactNative

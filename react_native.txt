@@ -25,7 +25,7 @@ npm install -g react-native-cli
 
 
 二、创建项目
-react-native init AwesomeProject
+react-native init ReNativeDemo
 cd AwesomeProject
 react-native run-android
 

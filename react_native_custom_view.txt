@@ -1,0 +1,2 @@
+1.
+compile 'com.facebook.react:react-native:0.20.1'
