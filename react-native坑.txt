@@ -43,3 +43,6 @@ npm install react-native --save
 第四步： 初始化项目
 
 node -e "require('react-native/local-cli/cli').init('.','MyProject')"
+
+
+3.防火墙可能会导致reLoad失败

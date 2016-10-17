@@ -1,0 +1,7 @@
+1.Can't connect to MySQL server on localhost
+打开mysql的服务即可
+控制面板-》管理工具-》服务-》MySQL
+或net start mysql
+
+
+2.my.ini要求以utf-8无bom格式设置 （用notepad++可以设置）
