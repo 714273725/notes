@@ -1,0 +1,10 @@
+Change XAMPP Tomcat and Control Panel settings or
+[Tomcat] 	Uninstall/disable the other service manually first
+[Tomcat] 	Found Path: "C:\Program Files\Apache Software Foundation\Tomcat 7.0\bin\Tomcat7.exe"
+
+
+Step 1: Open XAMPP - Run as administrator
+
+Step 2: Tomcat service must be install with different location
+
+Step 3: Click on green arrow in beside tomcat to uninstall current service.

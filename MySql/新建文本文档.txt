@@ -1,0 +1,4 @@
+到data目录下找SKY-20150530DNQ.err 文件找原因
+
+1. could not open single-table tablespace file .\mysql\innodb_index_stats.ibd
+   仅从上述信息看，是innodb 的数据文件损坏，在我安装Mysql的数据目录：C:\ProgramData\MySQL\MySQL        Server 5.6\data下,一般来说，直接删除ibdata1, ib_logfile0, .. 等innodb的文件，让MYSQL自动重建即可

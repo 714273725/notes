@@ -14,6 +14,16 @@
 10.以后增加或修改了文件（重复6到8）
 
 
+11.如何从本地把项目上传到github
+在本地项目所在目录按以下步骤操作
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:dengzhaotai/vlc_play.git
+git push -u origin master
+
+
+
 忽略：
 1.Git Bash 进入命令行，进入项目所在目录。
 
