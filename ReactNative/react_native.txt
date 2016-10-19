@@ -30,6 +30,10 @@ cd AwesomeProject
 react-native run-android
 
 
+三、协助开发
+在clone的项目的目录下进行  npm install 现行下载node_modules
+
+
 
 
 
