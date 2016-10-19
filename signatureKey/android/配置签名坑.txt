@@ -1,0 +1,3 @@
+1.Could not find property 'release' on SigningConfig container.
+
+解决：signingConfig需声明在buildTypes前

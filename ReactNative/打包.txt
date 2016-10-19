@@ -1,0 +1,10 @@
+1.ÅäÖÃÇ©ÃûĞÅÏ¢
+http://reactnative.cn/docs/0.31/signed-apk-android.html#content
+2.
+$ cd android
+$ gradlew assembleRelease
+
+
+
+$ cd android 
+$ gradlew installRelease

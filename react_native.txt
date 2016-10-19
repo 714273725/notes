@@ -33,9 +33,8 @@ react-native run-android
 三、协助开发
 在clone的项目的目录下进行  npm install 现行下载node_modules
 
-四、启动服务
-react-native start
-npm start
+
+react-native bundle--platform android --dev false --entry-file index.android.js --bundle-outputandroid/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
 
 
 
