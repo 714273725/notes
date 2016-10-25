@@ -46,3 +46,15 @@ node -e "require('react-native/local-cli/cli').init('.','MyProject')"
 
 
 3.防火墙可能会导致reLoad失败
+
+
+在renderScene方法中，我们渲染组件时，给组件传递了一个navigator
+
+
+
+
+
+
+
+
+在renderScene方法中，我们渲染组件时，给组件传递了一个navigator
