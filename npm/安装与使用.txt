@@ -16,3 +16,6 @@ $ npm install -g cnpm --registry=https://registry.npm.taobao.org
 这样就可以使用 cnpm 命令来安装模块了：
 
 $ cnpm install [name]
+
+
+npm install --save react-native-code-push@latest
