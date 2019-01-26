@@ -1,0 +1,14 @@
+一、提示头文件未找到编译时报错：
+xxxx: fatal error: xxx.h: No such file or directory
+ #include <xxxx.h> 
+出现这个错误是因为使用最新版的NDK造成的，最新版的NDk将头文件和库文件进行了分离，
+我们指定的sysroot文件夹下只有库文件，而头文件放在了NDK目录下的sysroot内，
+只需在--extra-cflags中添加 "-isysroot $NDK/sysroot" 即可，还有有关汇编的头文件也进行了分离，
+需要根据目标平台进行指定"-I$NDK/sysroot/usr/include/arm-linux-androideabi"，将 "arm-linux-androideabi"
+改为需要的平台就可以了，此外 ERROR: jni no found也可能是这个原因
+
+
+在编译leveldb的静态库libleveldb.a时，源文件里面使用了大量的标准IO设备：stderr 等。在NDK15以后，这些都不被支持了
+
+
+r16b支持最低只能到api21

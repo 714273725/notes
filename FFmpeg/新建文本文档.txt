@@ -1,0 +1,9 @@
+封装格式 .mp4 .avi 等解压成  音频和视频两部分
+其中音频有多种封装格式 acc,mp3等等 ->解码得到PCM
+视频封装格式则有 h264 MPEG2 等等 ->解码得到YUV
+
+
+
+FFmpeg 8个模块
+先configure
+将--target-os设为android，生成的库文件就不带版本号了，可以不用再去修改configure
