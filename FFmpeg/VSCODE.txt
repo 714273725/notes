@@ -1,0 +1,2 @@
+1.找不到头文件->鼠标放在找不到的头文件上->点击小灯泡->创建c_cpp_properties.json->在includePath中添加头文件目录
+  eg:"C:/kit/ndk/android-ndk-r16b/sysroot/usr/include/**"
