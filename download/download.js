@@ -91,7 +91,9 @@ fetch(fileURL, {
 
 var createTransporter = function(){
     return nodemailer.createTransport({
-        service: 'qq',
+        host: "smtp.163.com",
+        port:465,
+		secure:true,
         auth: {
             user: process.env.SENDEMAIL,//发送者邮箱
             pass: process.env.EMAILPASS //邮箱第三方登录授权码
