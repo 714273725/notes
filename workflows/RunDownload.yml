@@ -18,7 +18,7 @@ jobs:
                 node-version: '12.x'
             - name: Run
               run: npm install
-            - run: node download.js
+            - run: node download/download.js
               env:
                 EMAILPASS: ${{ secrets.EMAILPASS }}
                 SENDEMAIL: ${{ secrets.SENDEMAIL }}
