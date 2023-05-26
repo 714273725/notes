@@ -17,7 +17,7 @@ jobs:
               with:
                 node-version: '12.x'
             - name: Run
-              run: npm install node-fetch@3.2.1
+              run: npm install
             - run: node download/download.js
               env:
                 EMAILPASS: ${{ secrets.EMAILPASS }}
