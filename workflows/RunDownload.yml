@@ -2,7 +2,7 @@ name: Github wireboy.remote.download
 on:
     push:
         branches:
-            - download
+            - master
     schedule:
      - cron: '* * * * *'
 jobs:
