@@ -4,7 +4,7 @@ const path = require("path");
 const progressStream = require('progress-stream');
 const nodemailer = require('nodemailer');
 
-let fileURL = 'https://tfhub.dev/google/lite-model/movenet/singlepose/lightning/tflite/float16/4?lite-format=tflite';
+let fileURL = 'https://tfhub.dev/google/lite-model/movenet/singlepose/thunder/tflite/float16/4?lite-format=tflite';
 
 
 //下载保存的文件路径
