@@ -4,7 +4,7 @@ const path = require("path");
 const progressStream = require('progress-stream');
 const nodemailer = require('nodemailer');
 
-let fileURL = 'https://downloads.ti.com/jacinto7/esd/modelzoo/gplv3/latest/edgeai-yolov5/pretrained_models/models/detection/widerface/edgeai-yolov5/yolov5s6_640_ti_lite_71p53.onnx?tracked=1';
+let fileURL = 'https://downloads.ti.com/jacinto7/esd/modelzoo/gplv3/latest/edgeai-yolov5/pretrained_models/models/detection/widerface/edgeai-yolov5/yolov5s6_640_ti_lite_71p53.onnx';
 
 
 //下载保存的文件路径
