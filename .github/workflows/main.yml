@@ -3,8 +3,9 @@ on:
     push:
         branches:
             - master
-    schedule:
-     - cron: '* * * * *'
+#    定时执行
+#    schedule:
+#     - cron: '* * * * *'
 jobs:
     build:
         runs-on: ubuntu-latest
